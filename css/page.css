@@ -3,6 +3,8 @@ h2{
 }
 
 #blog_content{
-	padding:200px;
+	padding: 200px;
+    padding-top: 0;
+    line-height: 24px;
 }
 
