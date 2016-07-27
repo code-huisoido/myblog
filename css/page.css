@@ -1,4 +1,8 @@
-p, h2{
+h2{
 	text-align: center;
+}
+
+#blog_content{
+	padding:200px;
 }
 
