@@ -1,10 +1,68 @@
-h2{
-	text-align: center;
+html{
+	font-size:10px;
+	font-family: Arial, "微软雅黑";
+	margin:0;
+	padding:0;
+	
+}
+html a{
+	text-decoration: none;
+}
+html a:hover{
+	text-decoration: none;
+}
+html a:visited{
+	text-decoration: none;
+	color:rgb(0, 57, 241);
+}
+img{
+	margin:0;
+	padding:0;
 }
 
-#blog_content{
-	padding: 200px;
-    padding-top: 0;
-    line-height: 24px;
+#content{
+	font-size:1.4rem;
+	width:980px;
+	margin:0 auto;
 }
 
+#content .first_title{
+	font-size:1.6rem;
+}
+
+
+#content .left_menu{
+	float:left;
+	width:290px;
+	margin-right:10px;
+}
+
+.left_menu #avatar{
+	width:140px;
+	height:140px;
+	border-radius: 6px;
+}
+
+.left_menu .about_me{
+	vertical-align: middle;
+	text-align: left;
+}
+
+.left_menu .about_me label{
+	font-size:1.2rem;
+	color:#333;
+}
+
+#content .right_content{
+	float:right;
+	width:660px;
+	padding:10px;
+	padding-top:0;
+}
+
+#content .article_time{
+	font-size:1.2rem;
+	width:100px;
+	margin-right:10px;
+	display:inline-block;
+}
