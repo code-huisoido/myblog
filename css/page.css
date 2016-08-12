@@ -94,9 +94,9 @@ img{
 	text-indent: 2.8rem;
 }
 
-@media screen and (max-width: 295px) {
-#content .right_content{
-	padding:10px;
-	padding-top:0;
-}
+@media all and (max-width:295px){
+	#content .right_content{
+		padding:10px;
+		padding-top:0;
+	}
 } 
