@@ -93,3 +93,10 @@ img{
 .blog_content p{
 	text-indent: 2.8rem;
 }
+
+@media screen and (min-width: 295px) {
+#content .right_content{
+	padding:10px;
+	padding-top:0;
+}
+} 
