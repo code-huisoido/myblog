@@ -51,9 +51,7 @@ img{
 }
 
 .left_menu #avatar{
-	width:140px;
-	height:140px;
-	border-radius: 6px;
+	margin-left:10px;
 }
 
 .left_menu .about_me{
