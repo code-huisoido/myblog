@@ -22,6 +22,7 @@ title: 笑红尘
 			<li>
 				<em class="article_time">{{ post.date | date_to_string }}</em><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 			</li>
+			<p>{{ post.content }}</p>
 			<br/>
 			{% endfor %}
 		</ul>
