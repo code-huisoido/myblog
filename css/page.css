@@ -36,7 +36,7 @@ img{
 
 #content{
 	font-size:1.4rem;
-	width:980px;
+	width:100%;
 	margin:0 auto;
 }
 
@@ -48,7 +48,6 @@ img{
 #content .left_menu{
 	float: left;
     width: 250px;
-    margin-right: 50px;
 }
 
 .left_menu #avatar{
@@ -59,7 +58,8 @@ img{
 
 .left_menu .about_me{
 	vertical-align: middle;
-	text-align: left;
+	text-align: center;
+	margin-left:10px;
 }
 
 .left_menu .about_me label{
@@ -68,16 +68,16 @@ img{
 }
 .left_menu .article_list{
 	margin-top:30px;
+	margin-left:10px;
 }
 .left_menu ul{
 	padding-left: 17px;
 }
 
 #content .right_content{
-	float:right;
-	width:660px;
 	padding:10px;
 	padding-top:0;
+	margin-left:300px;
 }
 
 #content .article_time{
