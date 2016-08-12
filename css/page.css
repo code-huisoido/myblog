@@ -32,9 +32,9 @@ img{
 
 
 #content .left_menu{
-	float:left;
-	width:290px;
-	margin-right:10px;
+	float: left;
+    width: 250px;
+    margin-right: 50px;
 }
 
 .left_menu #avatar{
@@ -68,8 +68,7 @@ img{
 
 #content .article_time{
 	font-size:1.2rem;
-	width:100px;
-	margin-right:10px;
+	width:90px;
 	display:inline-block;
 }
 
