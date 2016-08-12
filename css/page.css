@@ -45,7 +45,7 @@ img{
 }
 
 
-#content .left_menu{
+.left_menu{
 	float: left;
     width: 250px;
 }
@@ -95,7 +95,7 @@ img{
 }
 
 @media screen and (max-width:750px){
-	.right_content{
+	#content .right_content{
 		padding:10px;
 		padding-top:0;
 	}
