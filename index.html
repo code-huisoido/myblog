@@ -14,18 +14,22 @@ title: 笑红尘
 				<p>GitHub:<a target="_blank" href="https://github.com/code-huisoido">https://github.com/code-huisoido</a></p>
 			</label>
 		</div>
+		<div class="article_list">
+			<p class="first_title">最新文章</p>
+			<ul>
+				{% for post in site.posts %}
+				<li>
+					<em class="article_time">{{ post.date | date_to_string }}</em><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>	
 	</div>
 	<div class="right_content">
-		<p class="first_title">最新文章</p>
-		<ul>
-			{% for post in site.posts %}
-			<li>
-				<em class="article_time">{{ post.date | date_to_string }}</em><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-			</li>
-			<p>{{ post.content }}</p>
-			<br/>
-			{% endfor %}
-		</ul>
+		{% for post in site.posts %}
+		<p>{{ post.content }}</p>
+		<br/>
+		{% endfor %}
 	</div>
 
 </div>
