@@ -21,11 +21,15 @@ img{
 }
 
 .banner{
-	width:100%;
+	height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    width: 980px;
 }
 .banner img{
-	width:100%;
 	background-repeat: no-repeat;
+    opacity: 0.8;
+    width: 100%;
 }
 
 #content{
