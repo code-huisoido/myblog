@@ -20,6 +20,14 @@ img{
 	padding:0;
 }
 
+.banner{
+	width:100%;
+}
+.banner img{
+	width:100%;
+	background-repeat: no-repeat;
+}
+
 #content{
 	font-size:1.4rem;
 	width:980px;
