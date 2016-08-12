@@ -98,5 +98,11 @@ img{
 	#content .right_content{
 		padding:10px;
 		padding-top:0;
+		margin-left: 0;
+	}
+
+	#content .left_menu{
+		float: none;
+    	width: 100%;
 	}
 }
