@@ -66,3 +66,11 @@ img{
 	margin-right:10px;
 	display:inline-block;
 }
+
+.blog_content{
+	font-size:1.4rem;
+}
+
+.blog_content p{
+	text-indent: 2rem;
+}
