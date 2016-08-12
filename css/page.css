@@ -5,6 +5,10 @@ html{
 	padding:0;
 	background: rgb(249, 249, 249) none repeat scroll 0 0;
 }
+body{
+	margin:0;
+	padding:0;
+}
 html a{
 	text-decoration: none;
 }
@@ -21,14 +25,12 @@ img{
 }
 
 .banner{
-	height: 350px;
     margin: 0 auto;
     text-align: center;
-    width: 980px;
+    width: 100%;
 }
 .banner img{
 	background-repeat: no-repeat;
-    opacity: 0.8;
     width: 100%;
 }
 
