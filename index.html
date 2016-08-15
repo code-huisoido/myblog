@@ -19,11 +19,11 @@ title: 西伯利亚懒猪
 	</div>
 		
 	<div class="article_list">
-		<h4>最新文章</h4>
+		<h2>My Articles</h2>
 		<ul>
 			{% for post in site.posts %}
 			<li>
-				<em class="article_time">{{ post.date | date_to_string }}</em><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				<a href="{{ site.baseurl }}{{ post.url }}"><i>{{ post.title }}</i></a>
 			</li>
 			{% endfor %}
 		</ul>
