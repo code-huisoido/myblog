@@ -5,34 +5,37 @@ title: 西伯利亚懒猪
 <!-- <div class="banner">
 	<img src="{{ site.baseurl }}/image/desktop.jpg">
 </div> -->
+
+
 <div id="content">
-	<div class="left_menu">
-		<div class="about_me">
-			<img src="{{ site.baseurl }}/image/lanzhu.gif" id="avatar">
-			<label>
-				<p>西伯利亚懒猪</p>
-				<p>尘世中一个迷途小码农</p>
-				<p>毕业于三流医药大学，机缘巧合下分配在计算机专业</p>
-				<p>现混在web开发领域，在某司担任php工程师，LOL黄金级别（Orz）</p>
-				<p>GitHub:<a target="_blank" href="https://github.com/code-huisoido">https://github.com/code-huisoido</a></p>
-			</label>
-		</div>
-		<div class="article_list">
-			<label class="first_title">最新文章</label>
-			<ul>
-				{% for post in site.posts %}
-				<li>
-					<em class="article_time">{{ post.date | date_to_string }}</em><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>	
-	</div>
+	<h1>西伯利亚懒猪</h1>
+	<h2 id="tagline">这里是一只迷惘的猪之人生旅行心得</h2>
+	
 	<div class="right_content">
 		{% for post in site.posts %}
 		<p>{{ post.content }}</p>
 		<br/>
 		{% endfor %}
 	</div>
+		
+	<div class="article_list">
+		<h4>最新文章</h4>
+		<ul>
+			{% for post in site.posts %}
+			<li>
+				<em class="article_time">{{ post.date | date_to_string }}</em><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>	
 
+	<div class="about_me">
+		<img src="{{ site.baseurl }}/image/lanzhu.gif" id="avatar">
+		<p>
+		尘世中一个迷途小码农<br>
+		毕业于三流医药大学，机缘巧合下分配在计算机专业<br>
+		现混在web开发领域，在某司担任php工程师，LOL黄金级别（Orz）<br>
+		GitHub:<a target="_blank" href="https://github.com/code-huisoido"><i>https://github.com/code-huisoido</i></a>
+		</p>
+	</div>
 </div>

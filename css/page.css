@@ -1,102 +1,81 @@
 html{
 	font-size:10px;
-	font-family: Arial, "微软雅黑";
 	margin:0;
 	padding:0;
-	background: rgb(249, 249, 249) none repeat scroll 0 0;
+	background: #eee;
+}
+html h1,h2,h3,h4,h5,h6{
+	font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    font-weight: 100;
+    color: #000;
+    line-height: 1.35;
+}
+html i{
+    text-transform: lowercase;
+    color: #1abc9c;
 }
 body{
 	margin:0;
 	padding:0;
+	color:#333;
+	font:300 1rem/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+	width:90%;
+	max-width: 960px;
+	margin:3em auto 0;
+	border:1px solid #ddd;
+	background: #fff;
+	padding-top:2rem;
 }
-html a{
+html a, a:hover, a:visited{
 	text-decoration: none;
+	border-bottom: 1px solid #1abc9c;
 }
-html a:hover{
-	text-decoration: none;
-}
-html a:visited{
-	text-decoration: none;
-	color:rgb(0, 57, 241);
-}
+
 img{
 	margin:0;
 	padding:0;
 }
 
-.banner{
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-}
-.banner img{
-	background-repeat: no-repeat;
-    width: 100%;
-}
-
 #content{
 	font-size:1.4rem;
-	width:100%;
 	margin:0 auto;
+	padding:8% 20%;
 }
 
-#content .first_title{
-	font-size:1.6rem;
+#tagline{
+	color: #999;
+    font-size: 1.6rem;
+    margin: 1.6rem 0 3.2rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 3px double #eee;
 }
 
-
-.left_menu{
-	float: left;
-    width: 250px;
-}
-
-.left_menu #avatar{
+#avatar{
 	margin-left:10px;
 }
 
-.left_menu .about_me{
+.about_me{
 	vertical-align: middle;
 	text-align: center;
 	margin-left:10px;
-}
-
-.left_menu .about_me label{
-	font-size:1.2rem;
-	color:#333;
-}
-.left_menu .article_list{
-	margin-top:30px;
-	margin-left:10px;
-}
-.left_menu ul{
-	padding-left: 17px;
-}
-
-#content .right_content{
-	padding:10px;
-	padding-top:0;
-	margin-left:300px;
-}
-
-#content .article_time{
-	font-size:1.2rem;
-	width:90px;
-	display:inline-block;
+	text-transform: lowercase;
+    color: #1abc9c;
+    font-size:1.6rem;
 }
 
 .blog_content{
-	font-size:1.4rem;
+	font-size:1.6rem;
 }
 
 .blog_content p{
-	text-indent: 2.8rem;
+	text-indent: 3.2rem;
 }
 
 .article_title{
 	font-size:1.6rem;
 }
 
-@media screen and (max-width:750px){
+/*@media screen and (max-width:750px){
 	#content .right_content{
 		padding:10px;
 		padding-top:0;
@@ -107,4 +86,4 @@ img{
 		float: none;
     	width: 100%;
 	}
-}
+}*/
