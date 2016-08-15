@@ -86,15 +86,10 @@ img{
 	font-size:1.6rem;
 }
 
-/*@media screen and (max-width:750px){
-	#content .right_content{
-		padding:10px;
-		padding-top:0;
-		margin-left: 0;
+@media screen and (max-width:750px){
+	#content{
+		font-size:1.4rem;
+		margin:0 auto;
+		padding:4% 6%;
 	}
-
-	#content .left_menu{
-		float: none;
-    	width: 100%;
-	}
-}*/
+}
