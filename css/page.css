@@ -51,13 +51,11 @@ img{
 }
 
 #avatar{
-	margin-left:10px;
+	
 }
 
 .about_me{
-	vertical-align: middle;
-	text-align: center;
-	margin-left:10px;
+	margin-top:5rem;
 	text-transform: lowercase;
     color: #1abc9c;
     font-size:1.6rem;
