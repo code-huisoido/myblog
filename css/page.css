@@ -59,6 +59,10 @@ img{
 	text-transform: lowercase;
     color: #1abc9c;
     font-size:1.6rem;
+    text-align: right;
+}
+.about_me p{
+	text-align: right;
 }
 .article_list{
 	font-size:1.6rem;
@@ -82,7 +86,7 @@ img{
 
 .article_title{
 	text-align: center;
-	font-size:1.6rem;
+	font-size:1.8rem;
 }
 
 .article_time{
