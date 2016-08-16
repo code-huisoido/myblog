@@ -81,7 +81,12 @@ img{
 }
 
 .article_title{
+	text-align: center;
 	font-size:1.6rem;
+}
+
+.article_time{
+	color:#999;
 }
 
 @media screen and (max-width:750px){
