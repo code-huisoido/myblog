@@ -50,10 +50,6 @@ img{
     border-bottom: 3px double #eee;
 }
 
-#avatar{
-	
-}
-
 .about_me{
 	margin-top:5rem;
 	text-transform: lowercase;
@@ -62,6 +58,7 @@ img{
     text-align: right;
 }
 .about_me p{
+	margin-top:0;
 	text-align: right;
 }
 .article_list{
