@@ -1,5 +1,5 @@
 html{
-	font-size:10px;
+	font-size:100px;
 	margin:0;
 	padding:0;
 	background: #eee;
@@ -18,13 +18,13 @@ body{
 	margin:0;
 	padding:0;
 	color:#333;
-	font:300 1rem/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+	font:300 0.1rem/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
 	width:90%;
 	max-width: 960px;
-	margin:3em auto 0;
+	margin:0.3rem auto 0;
 	border:1px solid #ddd;
 	background: #fff;
-	padding-top:2rem;
+	padding-top:0.2rem;
 }
 html a, a:hover, a:visited{
 	text-decoration: none;
@@ -37,24 +37,24 @@ img{
 }
 
 #content{
-	font-size:1.4rem;
+	font-size:0.14rem;
 	margin:0 auto;
 	padding:8% 20%;
 }
 
 #tagline{
 	color: #999;
-    font-size: 1.6rem;
-    margin: 1.6rem 0 3.2rem;
-    padding-bottom: 3.2rem;
+    font-size: 0.16rem;
+    margin: 0.16rem 0 0.32rem;
+    padding-bottom: 0.32rem;
     border-bottom: 3px double #eee;
 }
 
 .about_me{
-	margin-top:5rem;
+	margin-top:0.5rem;
 	text-transform: lowercase;
     color: #1abc9c;
-    font-size:1.6rem;
+    font-size:0.16rem;
     text-align: right;
 }
 .about_me p{
@@ -62,7 +62,7 @@ img{
 	text-align: right;
 }
 .article_list{
-	font-size:1.6rem;
+	font-size:0.16rem;
 }
 .article_list ul{
 	margin:0;
@@ -74,16 +74,16 @@ img{
 }
 
 .blog_content{
-	font-size:1.6rem;
+	font-size:0.16rem;
 }
 
 .blog_content p{
-	text-indent: 3.2rem;
+	text-indent: 0.32rem;
 }
 
 .article_title{
 	text-align: center;
-	font-size:1.8rem;
+	font-size:0.18rem;
 }
 
 .article_time{
@@ -92,7 +92,7 @@ img{
 
 @media screen and (max-width:750px){
 	#content{
-		font-size:1.4rem;
+		font-size:0.14rem;
 		margin:0 auto;
 		padding:4% 6%;
 	}
