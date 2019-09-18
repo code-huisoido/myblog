@@ -21,6 +21,10 @@
 <lastmod>2017-01-22T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/myblog/canvas/</loc>
+<lastmod>2019-09-18T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/myblog/%E5%89%8D%E7%AB%AF%E4%BD%93%E7%B3%BB/</loc>
 <lastmod>2019-09-18T00:00:00+08:00</lastmod>
 </url>
@@ -46,5 +50,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/myblog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/myblog/page2/</loc>
 </url>
 </urlset>
