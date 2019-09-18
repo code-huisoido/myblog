@@ -7,7 +7,7 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 name: 惜余
 # 描述/签名
-description: 海内存知己，天涯若比邻
+description: 攀上高峰，只为看到心中所想
 
 #
 # 下面的设定都是可选的
@@ -56,7 +56,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: 攀上高峰，只为看到心中所想
+footer-text: 海内存知己，天涯若比邻
 
 # 评论，注意，请不要同时添加多种不同的评论区
 
