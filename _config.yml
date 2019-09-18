@@ -1,1 +1,5 @@
 baseurl: /myblog
+markdown: kramdown
+
+kramdown:
+  input: GFM
