@@ -67,7 +67,7 @@ disqus: #loffer #shortname
 gitalk:
   clientID: '42a25098aca6e79400e0'
   clientSecret: '044d950524a8011cf8af172efbc0b0155df69be7'
-  repo: 'https://code-huisoido.github.io/myblog/'
+  repo: 'myblog'
   owner: 'code-huisoido'
 
 # 输入Google Analytics web tracking code
